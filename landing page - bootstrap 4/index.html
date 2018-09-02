@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>BOOTSTRAP WEBSITE</title>
+    <!-- BOOTSTRAP CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B"
+        crossorigin="anonymous">
+        <!-- FONT AWESOME -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ"
+            crossorigin="anonymous">
+    <!-- CUMSTON CSS  -->
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+ 
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="/">
+                <img src="img/logo.png" alt="Mi Logo" style="width: 20%">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Sobre Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Equipo</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- CABECERA   -->
+    <header class="main-header">
+        <div class="background-overlay text-white py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 text-center justify-content-center align-self-center">
+                        <h1>Esta es una frase relacionada con el producto</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, molestias.</p>
+                        <a href="#" class="btn btn-outline-secondary btn-lg text-white">Leer más</a>
+                    </div>
+                    <div class="col-md-6">
+                        <img src="img/product.jpg" alt="Imagen del producto" class="img-fluid d-none d-sm-block"  style="width: 45%">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- NEWSLETTER -->
+    <section class="bg-dark text-white py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <input type="text" class="form-control form-control-lg" placeholder="Introduzca su nombre">
+                </div>
+                <div class="col-md-4">
+                    <input type="email" class="form-control form-control-lg" placeholder="Introduzca su email">
+                </div>
+                <div class="col-md-4">
+                    <button class="btn btn-primary btn-lg btn-block">Suscríbase</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CARACTERÍSTICAS -->
+    <section class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="card text-center border-primary">
+                        <div class="card-body">
+                            <h3>Característica Uno</h3>
+                            <p>
+                                Lorem ipsum dolor, sit amet consectetur adipisicing. 
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card text-center bg-primary text-white">
+                        <div class="card-body">
+                            <h3>Característica Dos</h3>
+                            <p>
+                                Lorem ipsum dolor, sit amet consectetur adipisicing.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card text-center border-primary">
+                        <div class="card-body">
+                            <h3>Característica Tres</h3>
+                            <p>
+                                Lorem ipsum dolor, sit amet consectetur adipisicing.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card text-center bg-primary text-white">
+                        <div class="card-body">
+                            <h3>Característica Cuatro</h3>
+                            <p>
+                                Lorem ipsum dolor, sit amet consectetur adipisicing.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ¿POR QUÉ ESTE PRODUCTO? -->
+    <section class="bg-light text-center">
+        <div class="container">
+            <div class="row">
+                <div class="m-5">
+                    <h3>¿Por qué este producto?</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere laboriosam nulla similique deleniti dolores harum quia recusandae qui optio animi sed, repudiandae eveniet dicta repellat.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ACRODEÓN -->
+    <section class="container text-center p-5">
+        <div class="row">
+            <div class="accordion" id="accordionExample">
+                <div class="card">
+                    <div class="card-header" id="headingOne">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                Pregunta #1
+                            </button>
+                        </h5>
+                    </div>
+            
+                    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                        <div class="card-body">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia eius fugiat minima reiciendis qui quae est saepe quis architecto placeat dolorem, assumenda rem temporibus accusamus aliquam praesentium deserunt, autem enim esse. In exercitationem quis consequatur laudantium et? Aperiam, voluptates dolor.
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="headingTwo">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false"
+                                aria-controls="collapseTwo">
+                                Pregunta #2
+                            </button>
+                        </h5>
+                    </div>
+                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                        <div class="card-body">
+                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute,
+                            non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor,
+                            sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh
+                            helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher
+                            vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't
+                            heard of them accusamus labore sustainable VHS.
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="headingThree">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false"
+                                aria-controls="collapseThree">
+                                Pregunta #3
+                            </button>
+                        </h5>
+                    </div>
+                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                        <div class="card-body">
+                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute,
+                            non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor,
+                            sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh
+                            helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher
+                            vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't
+                            heard of them accusamus labore sustainable VHS.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- EQUIPO -->
+    <section class="equipo text-center">
+        <div class="container p-5">
+            <h1 class="text-white">Equipo</h1>
+            <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis, voluptates.</p>
+            <div class="row">
+
+                <!-- MIEMBROS -->
+                <div class="col-lg-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="img/person.png" class="img-fluid rounded-circle w-50" alt="Foto de miembro">
+                            <h3>Miembro</h3>
+                            <p>Lorem ipsum dolor sit amet.</p>
+                            <div class="d-flex flex-row justify-content-center">
+                                <div class="p-4">
+                                    <a href="http://www.facebook.com" target="_blank">
+                                        <i class="fab fa-facebook-square"></i>
+                                    </a>
+                                </div>
+                                <div class="p-4">
+                                    <a href="http://www.twitter.com" target="_blank">
+                                        <i class="fab fa-twitter-square"></i>
+                                    </a>
+                                </div>
+                                <div class="p-4">
+                                    <a href="http://www.instagram.com" target="_blank">
+                                        <i class="fab fa-instagram"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="img/person.png" class="img-fluid rounded-circle w-50" alt="Foto de miembro">
+                            <h3>Miembro</h3>
+                            <p>Lorem ipsum dolor sit amet.</p>
+                            <div class="d-flex flex-row justify-content-center">
+                                <div class="p-4">
+                                    <a href="http://www.facebook.com" target="_blank">
+                                        <i class="fab fa-facebook-square"></i>
+                                    </a>
+                                </div>
+                                <div class="p-4">
+                                    <a href="http://www.twitter.com" target="_blank">
+                                        <i class="fab fa-twitter-square"></i>
+                                    </a>
+                                </div>
+                                <div class="p-4">
+                                    <a href="http://www.instagram.com" target="_blank">
+                                        <i class="fab fa-instagram"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="img/person.png" class="img-fluid rounded-circle w-50" alt="Foto de miembro">
+                            <h3>Miembro</h3>
+                            <p>Lorem ipsum dolor sit amet.</p>
+                            <div class="d-flex flex-row justify-content-center">
+                                <div class="p-4">
+                                    <a href="http://www.facebook.com" target="_blank">
+                                        <i class="fab fa-facebook-square"></i>
+                                    </a>
+                                </div>
+                                <div class="p-4">
+                                    <a href="http://www.twitter.com" target="_blank">
+                                        <i class="fab fa-twitter-square"></i>
+                                    </a>
+                                </div>
+                                <div class="p-4">
+                                    <a href="http://www.instagram.com" target="_blank">
+                                        <i class="fab fa-instagram"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="img/person.png" class="img-fluid rounded-circle w-50" alt="Foto de miembro">
+                            <h3>Miembro</h3>
+                            <p>Lorem ipsum dolor sit amet.</p>
+                            <div class="d-flex flex-row justify-content-center">
+                                <div class="p-4">
+                                    <a href="http://www.facebook.com" target="_blank">
+                                        <i class="fab fa-facebook-square"></i>
+                                    </a>
+                                </div>
+                                <div class="p-4">
+                                    <a href="http://www.twitter.com" target="_blank">
+                                        <i class="fab fa-twitter-square"></i>
+                                    </a>
+                                </div>
+                                <div class="p-4">
+                                    <a href="http://www.instagram.com" target="_blank">
+                                        <i class="fab fa-instagram"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACTO -->
+    <section class="bg-light py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-9">
+                    <h3>Contacto</h3>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                    <form action="">
+                        <div class="input-group mb-3">
+                            <div class="input-group-prepend">
+                                <i class="fas fa-user input-group-text"></i>
+                            </div>
+                            <input type="text" name="" id="" class="form-control" placeholder="Nombre">
+                        </div>
+                        <div class="input-group mb-3">
+                            <div class="input-group-prepend">
+                                <i class="fas fa-envelope input-group-text"></i>
+                            </div>
+                            <input type="text" name="" id="" class="form-control" placeholder="Email">
+                        </div>
+                        <div class="input-group mb-3">
+                            <div class="input-group-prepend">
+                                <i class="fas fa-pencil-alt input-group-text"></i>
+                            </div>
+                            <textarea name="" id="" cols="30" rows="10" class="form-control" placeholder="Escribe tu mensaje"></textarea>
+                        </div>
+                        <button class="btn btn-primary btn-lg btn-block">Envíe su mensaje</button>
+                    </form>
+                </div>
+                <div class="col-lg-3 align-self-center">
+                    <img src="img/logo.png" alt="Mi Logo" style="width: 45%">
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- PIE -->
+    <footer>
+        <div class="container p-3 text-white text-center">
+            <p>Copyright &copy; 2018</p>
+        </div>
+    </footer>
+
+    <!-- BOOTSTRAP JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em"
+        crossorigin="anonymous"></script>
+</body>
+</html>
