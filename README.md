@@ -1,3 +1,3 @@
 # landing-page---bootstrap4
-Landing - Page creada con Bootstrap 4 de temática general
-![](1.png)
+Landing - Page creada con Bootstrap 4 de temática general.
+![](screenshot.png)
